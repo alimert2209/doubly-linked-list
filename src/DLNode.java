@@ -1,9 +1,9 @@
 public class DLNode {
-    int data;
+    String data;
     DLNode prev;
     DLNode next;
 
-    public DLNode(int data){
+    public DLNode(String data){
         this.data = data;
         this.prev = null;
         this.next = null;
